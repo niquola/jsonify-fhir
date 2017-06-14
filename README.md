@@ -344,6 +344,30 @@ There are a lot of moder formats which easly could be deduced from
 * edn
 * Avro
 
+## Problem 4: naming conventions for collections
+
+Idiomatic JSON naming convention is to use plural names for collections, e.g:
+
+```json
+
+// for local refs
+{
+   "name": [....]
+}
+```
+
+### Proposal
+
+We propose using plural names to hint that the value is a collection type:
+
+```json
+
+// for local refs
+{
+   "names": [....]
+}
+```
+
 
 ## Notes
 

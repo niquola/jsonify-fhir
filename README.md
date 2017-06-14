@@ -350,7 +350,7 @@ Idiomatic JSON naming convention is to use plural names for collections, e.g:
 
 ```json
 {
-   "name": [....]
+   "name": [...]
 }
 ```
 
@@ -360,7 +360,7 @@ We propose using plural names to hint that the value is a collection type:
 
 ```json
 {
-   "names": [....]
+   "names": [...]
 }
 ```
 

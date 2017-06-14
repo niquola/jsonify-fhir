@@ -349,8 +349,6 @@ There are a lot of moder formats which easly could be deduced from
 Idiomatic JSON naming convention is to use plural names for collections, e.g:
 
 ```json
-
-// for local refs
 {
    "name": [....]
 }
@@ -361,8 +359,6 @@ Idiomatic JSON naming convention is to use plural names for collections, e.g:
 We propose using plural names to hint that the value is a collection type:
 
 ```json
-
-// for local refs
 {
    "names": [....]
 }
